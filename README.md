@@ -1,13 +1,10 @@
 # Arduino Automatic Plant Watering System
 
-
 ## Introduction
 
 During the depths of the March pandeminc, I decided to make an automatic plant watering system with the Arduino board I had from college. 
 While it took a little while to figure out, the system now monitors the soil moisture level, records the measurements to an SD card, and waters the plant according
 to a simple model I created. By tuning the watering model I have been able to reduce the variability in the soil moisture,  decreasing the standard deviation in weekly moisture readings from ~12.5 at the start to ~6 as of the last weekly test. Most important of all the plant is THRIVING! Here's how the system works. 
-
-![IMG_1033](https://user-images.githubusercontent.com/33380363/101300559-fddb5800-3803-11eb-8e5c-2bd2ec7471b0.JPG)
 
 ## Components 
 
@@ -31,5 +28,6 @@ Below is a wiring diagram showing how the different parts. The circuito.io diagr
 
 ## How It Works
 
-The watering system is a mix of inputs and outputs. First, the soil moisture sensor reads the moisture level and returns a number corresponding to how wet or dry the soil is. The data is then written to the SD card reader along with a date/time measurement. The system performs this process every minute. Every hour, the system takes the average of the prior 60 moisture readings and inputs it into a model that determine how long to water the plant. The system uses an average in order to mitigate any single erroneous measurement. An signal then triggers the 5V relay attached to the Arduino to power the 12V water pump for the duration of time specified by the model. This monitoring and watering process continues 24/7. 
+The watering system is a mix of inputs and outputs. First, the moisture sensor reads the soil moisture level and returns a number corresponding to how wet or dry the soil is. The data is then written to the SD card module along with a date/time measurement. The system performs this process every minute. Every hour, the system takes the average of the prior 60 moisture readings and inputs it into a model that determine how long to water the plant. The system uses an average in order to mitigate any single erroneous measurement. A signal then triggers the 5V relay attached to the Arduino to power the 12V water pump for the duration of time specified by the model. This monitoring and watering process continues 24/7. 
 
+![IMG_1033](https://user-images.githubusercontent.com/33380363/101300559-fddb5800-3803-11eb-8e5c-2bd2ec7471b0.JPG)
