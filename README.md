@@ -3,8 +3,7 @@
 ## Introduction
 
 During the depths of the March pandeminc, I decided to make an automatic plant watering system with the Arduino board I had from college. 
-While it took a little while to figure out, the system now monitors the soil moisture level, records the measurements to an SD card, and waters the plant according
-to a simple model I created. By tuning the watering model I have been able to reduce the variability in the soil moisture,  decreasing the standard deviation in weekly moisture readings from ~12.5 at the start to ~6 as of the last weekly test. Most important of all the plant is THRIVING! Here's how the system works. 
+While it took a little while to figure out, the system now monitors the soil moisture level, records the measurements to an SD card, and waters the plant according to a simple model I created. By tuning the watering model I have been able to reduce the variability in the soil moisture,  decreasing the standard deviation in weekly moisture readings from ~12.5 at the start to ~6 as of the last weekly test. Most important of all the plant is THRIVING! Here's how the system works. 
 
 ## Components 
 
@@ -35,7 +34,9 @@ The watering system is a mix of inputs and outputs. First, the moisture sensor r
 
 ## Tuning the Model
 
-v1            |  v6
+The watering model takes the input from the soil moisture sensor and outputs a watering time. Soil moisture values range from ~300 (very wet) to ~750 (very dry). I used a linear model to calculate watering duration. Based on the data, I tweaked the model to administer more or less water (slope). The final model (v5) used the following equation: (Avergage Soil Moisture/20) - 25. By tuning the watering model I have been able to reduce the variability in the soil moisture,  decreasing the standard deviation in weekly moisture readings from ~12.5 at the start to ~6 as of the last weekly test.
+
+v1            |  v5
 :-------------------------:|:-------------------------:
 ![Screen Shot 2020-12-07 at 7 42 28 AM](https://user-images.githubusercontent.com/33380363/101352502-3e68bf00-3860-11eb-9d96-60d138154a64.png)|  ![Screen Shot 2020-12-07 at 7 45 36 AM](https://user-images.githubusercontent.com/33380363/101352495-3ad53800-3860-11eb-9fd8-9b3e8c0ac5ea.png)
 
