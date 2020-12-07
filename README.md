@@ -5,7 +5,7 @@
 
 During the depths of the March pandeminc, I decided to make an automatic plant watering system with the Arduino board I had from college. 
 While it took a little while to figure out, the system now monitors the soil moisture level, records the measurements to an SD card, and waters the plant according
-to a simple model I created. By tuning the watering model I have been able to reduce the variability in the soil moisture,  decreasing the standard deviation in weekly moisture readings from ~12.5 at the start to ~6 as of the last weekly test. Most important of all, the plant is THRIVING! Here's how the system works. 
+to a simple model I created. By tuning the watering model I have been able to reduce the variability in the soil moisture,  decreasing the standard deviation in weekly moisture readings from ~12.5 at the start to ~6 as of the last weekly test. Most important of all the plant is THRIVING! Here's how the system works. 
 
 ![IMG_1033](https://user-images.githubusercontent.com/33380363/101300559-fddb5800-3803-11eb-8e5c-2bd2ec7471b0.JPG)
 
