@@ -24,7 +24,7 @@ The watering system is made up the following components:
 
 ## Wiring Diagram
 
-Below is a wiring diagram showing how the different parts. The circuito.io diagram with parts can be seen [here](https://www.circuito.io/static/reply/index.html?solutionId=5fcd85eab1558400300adb81&solutionPath=storage.circuito.io). 
+Below is a wiring diagram showing how the different parts. The circuito.io diagram with parts can be seen [here](https://www.circuito.io/static/reply/index.html?solutionId=5fcd85eab1558400300adb81&solutionPath=storage.circuito.io). See the attached .ino file for the associated program code. 
 
 <img width="801" alt="Screen Shot 2020-12-06 at 8 49 15 PM" src="https://user-images.githubusercontent.com/33380363/101301377-a8ed1100-3806-11eb-9548-59c4a4611fc8.png">
 
