@@ -38,6 +38,7 @@ The watering model takes the input from the soil moisture sensor and outputs a w
 
 v1            |  v5
 :-------------------------:|:-------------------------:
-![Screen Shot 2020-12-07 at 7 42 28 AM](https://user-images.githubusercontent.com/33380363/101352502-3e68bf00-3860-11eb-9d96-60d138154a64.png)|  ![Screen Shot 2020-12-07 at 7 45 36 AM](https://user-images.githubusercontent.com/33380363/101352495-3ad53800-3860-11eb-9fd8-9b3e8c0ac5ea.png)
+
+![Screen Shot 2020-12-07 at 8 02 23 AM](https://user-images.githubusercontent.com/33380363/101354072-9274a300-3862-11eb-9d32-59b24aafafcb.png)| ![Screen Shot 2020-12-07 at 8 02 06 AM](https://user-images.githubusercontent.com/33380363/101354080-943e6680-3862-11eb-9d8b-5d90c3c31b2a.png)
 
 
