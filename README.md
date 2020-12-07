@@ -37,6 +37,6 @@ The watering system is a mix of inputs and outputs. First, the moisture sensor r
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![v1](Screen Shot 2020-12-07 at 7 45 36 AM](https://user-images.githubusercontent.com/33380363/101352495-3ad53800-3860-11eb-9fd8-9b3e8c0ac5ea.png)
+![](https://...Dark.png)  |  ![](https://...Ocean.png)
 
 
