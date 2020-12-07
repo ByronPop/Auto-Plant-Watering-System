@@ -31,3 +31,10 @@ Below is a wiring diagram showing how the different parts. The circuito.io diagr
 The watering system is a mix of inputs and outputs. First, the moisture sensor reads the soil moisture level and returns a number corresponding to how wet or dry the soil is. The data is then written to the SD card module along with a date/time measurement. The system performs this process every minute. Every hour, the system takes the average of the prior 60 moisture readings and inputs it into a model that determine how long to water the plant. The system uses an average in order to mitigate any single erroneous measurement. A signal then triggers the 5V relay attached to the Arduino to power the 12V water pump for the duration of time specified by the model. This monitoring and watering process continues 24/7. 
 
 ![IMG_1033](https://user-images.githubusercontent.com/33380363/101300559-fddb5800-3803-11eb-8e5c-2bd2ec7471b0.JPG)
+
+
+## Tuning the Model
+
+![alt-text-1](![Screen Shot 2020-12-07 at 7 42 28 AM](https://user-images.githubusercontent.com/33380363/101352502-3e68bf00-3860-11eb-9d96-60d138154a64.png)
+ "v1") ![alt-text-2](![Screen Shot 2020-12-07 at 7 45 36 AM](https://user-images.githubusercontent.com/33380363/101352495-3ad53800-3860-11eb-9fd8-9b3e8c0ac5ea.png) "v6")
+
