@@ -1,4 +1,5 @@
 # Arduino Automatic Plant Watering System
+An Arduino powered automatic plant watering system
 
 ## Introduction
 
